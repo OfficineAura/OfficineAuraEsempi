@@ -45,7 +45,8 @@ Questa guida fornisce istruzioni passo-passo per:
 
 -  Una volta aperto il grafico sulla sinistra potrai gestirne le diverse funzionalità cliccando sull'icona settings.
 -  Puoi cambiare il colore.
--  Puoi cambiare l'arco temporale per visualizzare i vari valori in quello specifico lasso temporale, etc.. 
+-  Puoi cambiare l'arco temporale per visualizzare i vari valori in quello specifico lasso temporale, etc..
+-  Il grafico si aggiorna in tempo reale, per cui ogni volta il sensore invia i dati via MQTT il grafico si aggiornerà con i nuovi dati. 
 
 ## 5. Note Aggiuntive
 
