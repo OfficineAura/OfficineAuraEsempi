@@ -20,7 +20,7 @@ Questa guida fornisce istruzioni passo-passo per:
 
 - Installare MQTTX da [questo link](https://mqttx.app/).
 - Avviare l'applicazione e aggiungere una connessione.
-- Inserire il nome e l'indirizzo IP del broker MQTT, ad esempio, test.mosquitto.org [Scopri di più...](https://test.mosquitto.org/](https://test.mosquitto.org/)).
+- Inserire il nome e l'indirizzo IP del broker MQTT, ad esempio, test.mosquitto.org [Scopri di più...](https://test.mosquitto.org/).
 - Inserire la porta del broker MQTT (in questo caso è la 1883).
 - Lasciare vuoti i campi Username e Password.
 - Connettersi al broker.
