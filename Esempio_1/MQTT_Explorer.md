@@ -17,8 +17,8 @@ Questa guida fornisce istruzioni passo-passo per:
 
 - Installare MQTT Explorer da [questo link](http://mqtt-explorer.com/).
 - Avviare l'applicazione e aggiungere una connessione.
-- Inserire il nome e l'indirizzo IP del broker MQTT, ad esempio, test.mosquitto.org ([https://test.mosquitto.org/](https://test.mosquitto.org/)).
-- Inserire la porta del broker MQTT (di solito 1883).
+- Inserire il nome e l'indirizzo IP del broker MQTT, ad esempio, test.mosquitto.org ([Scopri di più...](https://test.mosquitto.org/](https://test.mosquitto.org/)).
+- Inserire la porta del broker MQTT (in questo caso è la 1883).
 - Lasciare vuoti i campi Username e Password.
 - Connettersi al broker.
 
@@ -27,7 +27,7 @@ Questa guida fornisce istruzioni passo-passo per:
 - Conoscere il serial number del dispositivo.
 - Nella barra di ricerca, inserire il seguente topic: `device name_serial number` (ad esempio: `BSAV00_SerialNumber` del tuo dispositivo).
 - Attendere la pubblicazione dei valori del sensore SEN5x.
-- Espandere il sotto-topic `Aura/SEN5x`.
+- Espandere il sotto-topic `SEN5`.
 - Troverai i valori di tutti i gas inviati via MQTT da questo sensore. Cliccare su uno qualsiasi.
 
 ## 3. Analisi di un Gas e Generazione del Grafico
@@ -38,11 +38,16 @@ Questa guida fornisce istruzioni passo-passo per:
 "key2": value2,
 // ...
 }
-- Cliccare sull'icona posta a destra del valore "n" per visualizzare quel specifico valore su un grafico in un intervallo temporale specifico.
+-  Le chiavi che ci intressano sono: "p" che indica il nome del gas, "v" che indica il suo valore e "u" che indica l'unità di misura.
+-  Cliccare sull'icona posta a destra del valore "v" per visualizzare quel specifico valore su un grafico in un intervallo temporale specifico.
 
-## 4. Note Aggiuntive
+## 4. Visualizzazione del grafico
 
-- Personalizzare le impostazioni del grafico cliccando sull'icona "settings".
+-  Una volta aperto il grafico sulla sinistra potrai gestirne le diverse funzionalità cliccando sull'icona settings.
+-  Puoi cambiare il colore.
+-  Puoi cambiare l'arco temporale per visualizzare i vari valori in quello specifico lasso temporale, etc.. 
 
-Seguendo questi passaggi, dovresti essere in grado di connetterti al tuo biofiltro, visualizzare i dati dei sensori e analizzare i gas rilevati tramite MQTT Explorer.
+## 5. Note Aggiuntive
+
+Seguendo questi passaggi, dovresti essere in grado di connetterti ai dati inviati dal tuo biofiltro via MQTT, visualizzare i dati dei sensori e analizzare i gas rilevati tramite visualizzazione grafica.
 
