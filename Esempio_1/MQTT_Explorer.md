@@ -52,3 +52,8 @@ Questa guida fornisce istruzioni passo-passo per:
 
 Seguendo questi passaggi, dovresti essere in grado di connetterti ai dati inviati dal tuo biofiltro via MQTT, visualizzare i dati dei sensori e analizzare i gas rilevati tramite visualizzazione grafica.
 
+## 6. Conclusione 
+
+Ecco come dovrebbe appararire la tua schermata alla fine di questa lezione: 
+
+![Esempio Finale](https://github.com/OfficineAura/OfficineAuraEsempi/blob/main/Esempio_1/Mqtt_exampler_example.png)
