@@ -1,4 +1,5 @@
-# Guida all'Utilizzo del Biofiltro con MQTT Explorer![Logo del Progetto]([https://github.com/tuonome/tuorepository/raw/main/immagini/logo.png](https://github.com/OfficineAura/OfficineAuraEsempi/blob/main/Esempio_1/Gruppo-FOS_Officine-AURA_startup_logo_03.11.png
+# Guida all'Utilizzo del Biofiltro con MQTT Explorer
+![Logo del Progetto](https://github.com/tuonome/tuorepository/raw/main/immagini/logo.png](https://github.com/OfficineAura/OfficineAuraEsempi/blob/main/Esempio_1/Gruppo-FOS_Officine-AURA_startup_logo_03.11.png
 )
 Questa guida fornisce istruzioni passo-passo per:
 1. Installare un client MQTT e connettersi a un broker MQTT ([AWS MQTT](https://aws.amazon.com/it/what-is/mqtt/)).
