@@ -1,6 +1,6 @@
 # Guida all'Utilizzo del Biofiltro con MQTT Explorer
 <p align="center">
-  <img src="https://github.com/OfficineAura/OfficineAuraEsempi/blob/main/Esempio_1/Gruppo-FOS_Officine-AURA_startup_logo_03.11.png" alt="Logo del Progetto" width="150" height="150" style="border-radius:50%;">
+  <img src="https://github.com/OfficineAura/OfficineAuraEsempi/blob/main/Esempio_1/Gruppo-FOS_Officine-AURA_startup_logo_03.11.png" alt="Logo del Progetto" width="150" height="150" border-radius:"50%;"">
 </p>
 
 Questa guida fornisce istruzioni passo-passo per:
