@@ -4,17 +4,17 @@ Il tuo KIT AURA rileva nell’aria la presenza di elementi inquinanti grazie a s
 I valori di gas inquinanti sono trasmessi anche ad un broker ([MQTT](https://aws.amazon.com/it/what-is/mqtt/)). <br>
 Ecco come fare per visualizzare misure.<br>
 
-## Prerequisiti
+## Cosa devi sapere
 
-- [MQTT Explorer](http://mqtt-explorer.com/)
-- [Test.mosquitto.org](https://test.mosquitto.org/)
+- MQTT Client: [Explorer](http://mqtt-explorer.com/)
+- MQTT Broker: [test.mosquitto.org](https://test.mosquitto.org/)
 - Serial number del dispositivo
 
 ## 1. Installa il Client MQTT e Connettilo al Broker
 
 - [Installa](http://mqtt-explorer.com/) MQTT Explorer.
-- Avvia l'applicazione e crea una connessione.
-- Inserisci l'indirizzo IP del broker MQTT (per il kit AURA l'IP è **`test.mosquitto.org`**) e la porta del broker MQTT (per il kit AURA è la **`1883`**).
+- Avvia l'applicazione e crea una connessione:
+        - Inserisci l'indirizzo IP del broker MQTT (per il kit AURA l'IP è **`test.mosquitto.org`**) e la porta del broker MQTT (per il kit AURA è la **`1883`**).
 - Lascia vuoti i campi Username e Password, la connessione al kit AURA non richiede credenziali.
 - Connettiti.<details>Test.mosquitto è un broker MQTT pubblico condiviso da molte persone. I nomi sulla sinistra rappresentano i vari topics (argomenti) che sono stati pubblicati su quel broker da diverse fonti. Puoi ignorarli se non sono pertinenti ai tuoi dati specifici.</details>
 
@@ -31,7 +31,8 @@ Ecco come fare per visualizzare misure.<br>
 
 - A destra troverai un formato contenente diverse chiavi-valori.
 - Ecco come appare: `{"key1": value1,"key2": value2,// ...}`
--  “Key” rappresenta il nome identificativo mentre “value” è il valore corrispondente.<details>- "p": Nome identificativo del gas.
+-  “Key” rappresenta il nome identificativo mentre “value” è il valore corrispondente.<details>
+     - "p": Nome identificativo del gas.
      - "v": Valore del gas.
      - "u": Unità di misura del gas.
 </details>
