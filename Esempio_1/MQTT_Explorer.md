@@ -10,7 +10,7 @@ Ecco come fare per visualizzare misure.<br>
 - [Test.mosquitto.org](https://test.mosquitto.org/)
 - Serial number del dispositivo
 
-## 1. Installa il Client MQTT e connettilo al Broker
+## 1. Installa il Client MQTT e Connettilo al Broker
 
 - Installa MQTT Explorer da [questo link](http://mqtt-explorer.com/).
 - Avvia l'applicazione e crea una connessione.
@@ -18,7 +18,7 @@ Ecco come fare per visualizzare misure.<br>
 - Lascia vuoti i campi Username e Password, la connessione al kit AURA non richiede credenziali.
 - Connettiti. [..7](FAQ.md#domanda-7).
 
-## 2. Visualizzazione dei Valori di un Sensore
+## 2. Visualizza i Valori di un Sensore
 
 - Conosci il serial number del dispositivo. [risposta 1](FAQ.md#domanda-1).
 - Nella barra di ricerca, inserisci il topic: `device name_serial number` (per il kit AURA è un valore tipo: **`BSAV00_001`**). In questo modo selezioni solo l’albero di valori relativi al kit AURA.
@@ -26,14 +26,14 @@ Ecco come fare per visualizzare misure.<br>
 - Espandi il sotto-topic `SEN5` e troverai i valori di tutti i gas rilevati da questo sensore.
 - Clicca su un gas (Es. PM2.5).
 
-## 3. Analisi di un Gas e Generazione del Grafico
+## 3. Analizza la struttura di un Gas e Genera il Grafico
 
 - A destra troverai un formato contenente diverse chiavi-valori.
 - Ecco come appare: `{"key1": value1,"key2": value2,// ...}`
 -  “Key” rappresenta il nome identificativo mentre “value” è il valore corrispondente. [..2](FAQ.md#domanda-2).
 -  A destra della chiave “v” trovi un'icona che serve a visualizzare quello specifico valore su un grafico. Prova a cliccare. 
 
-## 4. Visualizzazione del grafico
+## 4. Analizza e Personalizza il Grafico
 
 -  A sinistra si sarà aperto il grafico contenente i valori del gas. [..3](FAQ.md#domanda-3).
 -  Il grafico si aggiorna in tempo reale ogni volta il sensore invia i dati via MQTT.  [..8](FAQ.md#domanda-3).
