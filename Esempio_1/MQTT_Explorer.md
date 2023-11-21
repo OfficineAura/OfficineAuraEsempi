@@ -44,7 +44,7 @@ Seguendo questi passaggi, dovresti essere in grado di connetterti ai dati inviat
 
 ## 6. Mettiti alla prova
 
-- Prova a eseguire gli stessi passaggi utilizzato un altro client MQTT, MQTTX.
+- Prova a eseguire gli stessi passaggi utilizzato un altro client MQTT, `MQTTX`.
 - Scaricalo da [questo link](https://mqttx.app/).
 
 ## 7. Conclusione 
