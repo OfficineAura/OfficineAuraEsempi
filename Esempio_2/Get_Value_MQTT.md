@@ -26,7 +26,7 @@ Alcune delle librerie comuni in diversi linguaggi di programmazione sono:
 
 ## 2. Effettua la Connessione
 
-Una volta trovata la libreria da utilizzare, non ti resterà che utilizzarla per eseguire la connessione. 
+Una volta trovata la libreria da utilizzare, non ti resterà che utilizzarla per eseguire la connessione.<details></details> 
 
 ## 3. Riprendi i valori di un determinato sensore
 
