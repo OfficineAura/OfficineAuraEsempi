@@ -1,7 +1,7 @@
 # Come monitorare lo stato dell’aria con il Kit AURA
 
 Il tuo KIT AURA rileva nell’aria la presenza di elementi inquinanti grazie a sensori.<br>
-I valori di gas inquinanti sono trasmessi anche ad un broker MQTT ([AWS MQTT](https://aws.amazon.com/it/what-is/mqtt/)). <br>
+I valori di gas inquinanti sono trasmessi anche ad un broker ([MQTT](https://aws.amazon.com/it/what-is/mqtt/)). <br>
 Ecco come fare per visualizzare misure.<br>
 
 ## Prerequisiti
@@ -12,11 +12,18 @@ Ecco come fare per visualizzare misure.<br>
 
 ## 1. Installa il Client MQTT e Connettilo al Broker
 
-- Installa MQTT Explorer da [questo link](http://mqtt-explorer.com/).
+- [Installa](http://mqtt-explorer.com/) MQTT Explorer.
 - Avvia l'applicazione e crea una connessione.
 - Inserisci l'indirizzo IP del broker MQTT (per il kit AURA l'IP è **`test.mosquitto.org`**) e la porta del broker MQTT (per il kit AURA è la **`1883`**).
 - Lascia vuoti i campi Username e Password, la connessione al kit AURA non richiede credenziali.
-- Connettiti. [..7](FAQ.md#domanda-7).
+- Connettiti. [..7](FAQ.md#domanda-7).<details>
+<summary>Clicca per espandere il menù</summary>
+
+- Voce 1
+- Voce 2
+- Voce 3
+
+</details>
 
 ## 2. Visualizza i Valori di un Sensore
 
