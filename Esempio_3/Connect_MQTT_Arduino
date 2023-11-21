@@ -1,0 +1,62 @@
+//Includi la libreria di connessione Wifi
+#include <WiFi.h> 
+//Includi la libreria che gestisce la connessione MQTT
+#include <PubSubClient.h> 
+
+// Definizione delle credenziali della rete WiFi. Ti serviranno in Arduino per permettere al microcontrollore la connessione al broker MQTT.
+const char* ssid = "ssid";
+const char* password = "password";
+
+// Credenziali per il server MQTT
+const char* mqttServer = "test.mosquitto.org";
+const int mqttPort = 1883;
+
+// Creazione di un oggetto WiFiClient e di un oggetto PubSubClient
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+// Funzione di callback che gestisce i messaggi MQTT ricevuti
+void callback(char* topic, byte* payload, unsigned int length) {
+ 
+ // Stampa il contenuto del messaggio ricevuto 
+  for (int i = 0; i < length; i++) {
+    Serial.print((char)payload[i]);
+  }
+}
+
+
+void setup() {
+
+ // Inizializzazione della comunicazione seriale.
+  Serial.begin(115200);
+
+// Connessione alla rete WiFi
+  WiFi.begin(ssid, password);
+
+// Attendere la connessione alla rete WiFi
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+  }
+
+ // Configurazione del server MQTT e della funzione di callback
+  client.setServer(mqttServer, mqttPort);
+  client.setCallback(callback);
+
+// Connessione al server MQTT
+  while (!client.connected()) {
+    if (client.connect("ESP32Client", mqttUser, mqttPassword )) {
+      Serial.println("connected");  
+    } else {
+      delay(2000);
+    }
+  }
+
+  // Sottoscrizione al topic "BSAV00_0001"
+  client.subscribe("BSAV00_0001");
+ 
+}
+ 
+void loop() {
+// Gestione degli eventi del client MQTT
+  client.loop();
+}
