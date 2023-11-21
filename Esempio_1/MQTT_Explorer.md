@@ -20,7 +20,7 @@ Ecco come fare per visualizzare misure.<br>
 
 ## 2. Visualizza i Valori di un Sensore
 
-- Conosci il serial number del dispositivo. [risposta 1](FAQ.md#domanda-1).
+- Conosci il serial number del dispositivo. [..1](FAQ.md#domanda-1).
 - Nella barra di ricerca, inserisci il topic: `device name_serial number` (per il kit AURA è un valore tipo: **`BSAV00_0001`**). In questo modo selezioni solo l’albero di valori relativi al kit AURA.
 - Dopo qualche minuto, vedrai la pubblicazione dei valori del sensore SEN5.
 - Espandi il sotto-topic `SEN5` e troverai i valori di tutti i gas rilevati da questo sensore.
