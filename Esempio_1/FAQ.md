@@ -1,4 +1,4 @@
-## FAQ (Domande Frequenti)
+## Cerchi qualcosa?
 
 1. **[Dove trovo il serial number del mio dispositivo?](#domanda-1)**
    - **Risposta:** Il serial number si trova sul dispositivo stesso o nelle informazioni fornite con il kit. In MQTT Explorer, inserisci il topic `device name_serial number` per selezionare i dati relativi al tuo kit.
