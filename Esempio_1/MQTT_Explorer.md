@@ -1,7 +1,9 @@
 # Come monitorare lo stato dell’aria con il Kit AURA
 
 Il tuo KIT AURA rileva nell’aria la presenza di elementi inquinanti grazie a sensori. 
+
 I valori di gas inquinanti sono trasmessi anche ad un broker MQTT ([AWS MQTT](https://aws.amazon.com/it/what-is/mqtt/)). 
+
 Ecco come fare per visualizzare misure.
 
 ## Prerequisiti
