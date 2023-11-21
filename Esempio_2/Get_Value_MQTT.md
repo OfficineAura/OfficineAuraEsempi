@@ -26,7 +26,12 @@ Alcune delle librerie comuni in diversi linguaggi di programmazione sono:
 
 ## 2. Effettua la Connessione
 
-Una volta trovata la libreria da utilizzare, non ti resterà che utilizzarla per eseguire la connessione.<details></details> 
+Una volta trovata la libreria da utilizzare, non ti resterà che utilizzarla per eseguire la connessione.<details>
+- Definisci i dettagli del Broker MQTT (Indirizzo IP e porta);
+- Inizializza un oggetto MQTT client nel modo in cui lo richiede la libreria che stai utilizzando;
+- Implementa una funzione di connessione al broker MQTT;
+- Aggiungi la logica per la sottiscrizione al topic di interesse;
+- Avvio del loop per mantenere la connessione al broker.</details> 
 
 ## 3. Riprendi i valori di un determinato sensore
 
