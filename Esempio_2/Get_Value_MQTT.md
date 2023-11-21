@@ -1,4 +1,4 @@
-# Come prendere i valori di un sensore dal broker MQTT
+# Come riprendere i valori di un sensore dal broker MQTT
 
 Questo documento ti aiuterà a sviluppare la logica necessaria per riprendere i valori dei sensori da un broker MQTT.<br>
 La logica implementabile è la stessa per tutti i linguaggi utilizzati in queste demo. <br>
