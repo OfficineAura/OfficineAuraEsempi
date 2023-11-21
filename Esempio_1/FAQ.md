@@ -23,3 +23,7 @@
 
 7. **[Perché quando mi connetto a test.mosquitto vedo tutti quei nomi sulla sinistra?](#domanda-7)**
    - **Risposta:** Test.mosquitto è un broker MQTT pubblico condiviso da molte persone. I nomi sulla sinistra rappresentano i vari topics (argomenti) che sono stati pubblicati su quel broker da diverse fonti. Puoi ignorarli se non sono pertinenti ai tuoi dati specifici.
+
+8. **[A quale arco temporale si riferiscono i valori del gas visualizzati nel grafico?](#domanda-8)**
+   - **Risposta:** I valori del gas visualizzati nel grafico si riferiscono all'arco temporale specifico indicato nella finestra di visualizzazione. Dopo aver cliccato sull'icona "Settings", puoi verificare e personalizzare l'intervallo di tempo per analizzare i dati del gas in un contesto temporale diverso.
+
