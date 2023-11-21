@@ -16,7 +16,7 @@ Ecco come fare per visualizzare misure.
 - Avvia l'applicazione e crea una connessione.
 - Inserisci l'indirizzo IP del broker MQTT (per il kit AURA l'IP è test.mosquitto.org) e la porta del broker MQTT (per il kit AURA è la 1883).
 - Lascia vuoti i campi Username e Password, la connessione al kit AURA non richiede credenziali.
-- Connettiti. [Domande?](FAQ.md#domanda-7).
+- Connettiti. [risposta 7](FAQ.md#domanda-7).
 
 ## 2. Visualizzazione dei Valori di un Sensore
 
