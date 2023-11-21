@@ -18,11 +18,11 @@ Ecco come fare.<br>
 
 Hai bisogno di una libreria MQTT in qualsiasi linguaggio di programmazione per semplificare l'implementazione delle funzionalità di comunicazione con il protocollo MQTT.
 Alcune delle librerie comuni in diversi linguaggi di programmazione sono: 
-- Python: paho-mqtt
-- JavaScript: mqtt.js
-- Java: Eclipse Paho
-- C#: MQTTnet
-- Arduino: PubSubClient
+- Python: **`paho-mqtt`**
+- JavaScript: **`mqtt.js`**
+- Java: Eclipse **`Paho`**
+- C#: **`MQTTnet`**
+- Arduino: **`PubSubClient`**
 
 ## 2. Effettua la Connessione
 
