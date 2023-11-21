@@ -10,6 +10,7 @@ Ecco come fare.<br>
 - Importala sul tuo IDE; 
 - Utilizza le funzioni della libreria per effettuare la connessione; 
 - Sottoscriviti ad un topic;
+- Implementa una funzione di callback per gestire i messaggi in arrivo;
 - Riprendi i valori di un determinato sensore; 
 - Stampa i valori;
 - Disconnessione sicura.
@@ -30,13 +31,17 @@ Una volta trovata la libreria da utilizzare, non ti resterà che utilizzarla per
 - Definisci i dettagli del Broker MQTT (Indirizzo IP e porta);
 - Inizializza un oggetto MQTT client nel modo in cui lo richiede la libreria che stai utilizzando;
 - Implementa una funzione di connessione al broker MQTT;
-- Aggiungi la logica per la sottiscrizione al topic di interesse;
+- Aggiungi la logica per la sottiscrizione al topic di interesse (ad esempio: **`"BSAV00_0001/"`**;
+- Implementare una funzione di callback per gestire i messaggi ricevuti dal broker;
 - Avvio del loop per mantenere la connessione al broker.</details> 
 
 ## 3. Riprendi i valori di un determinato sensore
 
 Una volta effettuata la connessione, potrai utilizzare una delle tante funzionalità della libreria. 
-Sottiscriviti al topic di interesse (quello utilizzato dal sensore per pubblicare i dati) e riprendi i valori di quel topic. 
+Sottiscriviti al topic di interesse (quello utilizzato dal sensore per pubblicare i dati) e riprendi i valori di quel topic.<details>
+- Specifica il topic al quale il sensore pubblica i dati (ad esempio **`"sensor/temperature"`**;
+- Implementa una funzione di messaggistica che gestirà i messaggi ricevuti dal broker quando il sensore pubblica nuovi dati.
+- Estrai i valori dal payload del messaggio e gestiscili secondo le tue esigenze (ad esempio: stampali in console).</details> 
 
 ## 4. Stampa i valori in console
 
