@@ -21,8 +21,8 @@ Ecco come visualizzare le misure.<br>
 
 ## 2. Visualizza i Valori di un Sensore
 
-- [video](https://www.youtube.com/watch?v=pvuVjJ0AnrQ)
-- Se non ti è possibile seguire il video, segui le seguenti istruzioni:
+ [video](https://www.youtube.com/watch?v=pvuVjJ0AnrQ)
+ Se non ti è possibile seguire il video, segui le seguenti istruzioni:
   
 - In MQTT Explorer, inserisci nella barra di ricerca `device name_serial number`, che per il kit aura è del tipo **`BSAV00_0001`**
 - Dopo poco, MQTT Explorer mostrerà solo i sensori del tuo kit AURA. Tra questo c'è il sensore SEN5.
