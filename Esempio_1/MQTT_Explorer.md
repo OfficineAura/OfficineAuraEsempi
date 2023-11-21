@@ -29,11 +29,7 @@ Ecco come fare per visualizzare misure.
 ## 3. Analisi di un Gas e Generazione del Grafico
 
 - A destra troverai un formato contenente diverse chiavi-valori.
-- Ecco come appare: `{
-"key1": value1,
-"key2": value2,
-// ...
-}`
+- Ecco come appare: `{"key1": value1,"key2": value2,// ...}`
 -  “Key” rappresenta il nome identificativo mentre “value” è il valore corrispondente. 
 -  A destra della chiave “v” trovi un'icona che serve a visualizzare quello specifico valore su un grafico. Prova a cliccare.
 
