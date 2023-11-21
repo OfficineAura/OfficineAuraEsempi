@@ -16,7 +16,7 @@
    - **Risposta:** I dati e il grafico si aggiornano in tempo reale ogni volta che il sensore invia nuovi dati tramite MQTT.
 
 5. **[Posso vedere un esempio finale di come dovrebbe apparire la schermata?](#domanda-5)**
-   - **Risposta:** Certamente! Ecco un [esempio finale](https://github.com/OfficineAura/OfficineAuraEsempi/blob/main/Esempio_1/Mqtt_explorer_example.png) della schermata con dati e grafico.
+   - **Risposta:** Certamente! Ecco un [esempio finale](https://github.com/OfficineAura/OfficineAura_Lezioni/blob/main/Lezione_1_MQTT/Mqtt_explorer_example.png) della schermata con dati e grafico.
 
 6. **[Come posso interpretare i dati del sensore SEN5?](#domanda-6)**
    - **Risposta:** I dati includono informazioni come il nome del gas ("p"), il suo valore ("v") e l'unità di misura ("u"). Puoi fare riferimento al manuale del tuo kit AURA per ulteriori dettagli sui gas rilevati.
