@@ -45,11 +45,7 @@ void setup() {
 
 // Connessione al server MQTT
   while (!client.connected()) {
-    if (client.connect("ESP32Client", mqttUser, mqttPassword )) {
       Serial.println("connected");  
-    } else {
-      delay(2000);
-    }
   }
 
   // Sottoscrizione al topic "BSAV00_0001"
