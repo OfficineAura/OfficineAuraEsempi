@@ -4,10 +4,11 @@ Questo documento ti aiuterà a sviluppare la logica necessaria per riprendere i 
 La logica implementabile è la stessa per tutti i linguaggi utilizzati in queste demo. <br>
 Ecco come fare.<br>
 
-## Logica per programmare
+## Logica di programmazione
 
-- Installa la libreria necessaria per la connessione MQTT; 
-- Effettua la connessione; 
+- Identifica la libreria;
+- Importala sul tuo IDE; 
+- Utilizza le funzioni della libreria per effettuare la connessione; 
 - Sottoscriviti ad un topic;
 - Riprendi i valori di un determinato sensore; 
 - Stampa i valori;
