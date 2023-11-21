@@ -1,3 +1,4 @@
+//Importare la libreria PAHO necessaria in Java per effettuare la connessione MQTT. Ricorda di implementare le dependency necessarie.
 import org.eclipse.paho.client.mqttv3.*;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
