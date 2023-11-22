@@ -1,8 +1,7 @@
 # Leggi misura da sensore.
 
-Il sensore comunica le misure al broker MQTT [Sesssione_1: MQTT](https://github.com/OfficineAura/OfficineAura_Sperimentazione/tree/main/Sessione_1:%20MQTT).<br>
-La logica implementabile è la stessa per tutti i linguaggi utilizzati in queste demo. <br>
-Ecco come fare.<br>
+Il sensore comunica le misure al broker MQTT ([Sessione_1])(https://github.com/OfficineAura/OfficineAura_Sperimentazione/tree/main/Sessione_1:%20MQTT).<br>
+Costruiamo un breve programma per andare a estrarre dal messaggio MQTT il valore di un sensore.<br>
 
 ## Logica di programmazione
 
