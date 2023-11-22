@@ -11,55 +11,60 @@
     <title>Kit Aura Smart</title>
 </head>
 <body>
-<!-- Qui puoi personalizzare la tua pagina come preferisci, aggiungi gli elementi che preferisci -->
 
-    <!-- Bene, ora vediamo come mostrare alcuni dati! -->
+    <!-- Ricordarti di modifica "BSAV00_0103" con il device_name e serial_number del tuo kit AURA -->
+    <script>
+        var auraKit = "BSAV00_0103";
+    </script>
 
+    <!-- Qui puoi personalizzare la tua pagina come preferisci, aggiungi gli elementi che preferisci -->
+       <!-- Bene, ora vediamo come mostrare alcuni dati! -->
+    
     <!-- Queste sono i campi che ci servono per mostrare i valori ripresi da MQTT - PM10  -->
     <p>
-        <span id="out_Aura/BSAV00_0103_pm10_ug_m3">---</span>
+        <span id="out_Aura/" + auraKit + "_pm10_ug_m3">---</span>
        µg/m³ - Livello PM10
     </p>
 
     <!-- PM2.5  -->
     <p>
-        <span id="out_Aura/BSAV00_0103_pm2p5_ug_m3">---</span>
+        <span id="out_Aura/" + auraKit + "_pm2p5_ug_m3">---</span>
         µg/m³ - Livello PM2.5
     </p>
 
     <!-- PM4.0 -->
     <p>
-        <span id="out_Aura/BSAV00_0103_pm4p0_ug_m3">---</span>
+        <span id="out_Aura/" + auraKit + "_pm4p0_ug_m3">---</span>
        µg/m³ - Livello PM4.0
     </p>
 
     <!-- Livello di umidità -->
     <p>
-        <span id="out_Aura/BSAV00_0103_humidity">---</span>
+        <span id="out_Aura/" + auraKit + "_humidity">---</span>
         % - Umidità
     </p>
 
     <!-- Livello di temperatura -->
     <p>
-        <span id="out_Aura/BSAV00_0103_temperature">---</span>
+        <span id="out_Aura/" + auraKit + "_temperature">---</span>
        °C - Temperatura
     </p>
 
     <!-- Indice VOC - Composti Organici Volatili -->
     <p>
-        <span id="out_Aura/BSAV00_0103_voc_index">---</span>
+        <span id="out_Aura/" + auraKit + "_voc_index">---</span>
         Indice VOC - Qualità dell'aria
     </p>
 
     <!-- Indice NOx - Ossidi di Azoto -->
     <p>
-        <span id="out_Aura/BSAV00_0103_nox_index">---</span>
+        <span id="out_Aura/" + auraKit + "_nox_index">---</span>
         Indice NOx - Qualità dell'aria
     </p>
 
     <!-- Data e Ora -->
     <p>
-        <span id="out_Aura/BSAV00_0103_t">---</span>
+        <span id="out_Aura/" + auraKit + "_t">---</span>
         Data e Ora
     </p>
 
