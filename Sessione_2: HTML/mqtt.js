@@ -1,6 +1,6 @@
 
 console.log(mqtt)
-
+console.log("Common Variable:", kitAura);
 function connectMqttGetValues() {
     const options = {
         connectTimeout: 30000,
