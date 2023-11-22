@@ -1,6 +1,6 @@
-# Come riprendere i valori di un sensore dal broker MQTT
+# Leggi misura da sensore.
 
-Questo documento ti aiuterà a sviluppare la logica necessaria per riprendere i valori dei sensori da un broker MQTT.<br>
+Il sensore comunica le misure al broker MQTT [Sesssione_1: MQTT](https://github.com/OfficineAura/OfficineAura_Sperimentazione/tree/main/Sessione_1:%20MQTT).<br>
 La logica implementabile è la stessa per tutti i linguaggi utilizzati in queste demo. <br>
 Ecco come fare.<br>
 
