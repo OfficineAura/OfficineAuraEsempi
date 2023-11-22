@@ -22,53 +22,65 @@
     
     <!-- Queste sono i campi che ci servono per mostrare i valori ripresi da MQTT - PM10  -->
     <p>
-        <span id="out_Aura/" + auraKit + "_pm10_ug_m3">---</span>
+        <span id="out_Aura/Example_pm10_ug_m3">---</span>
        µg/m³ - Livello PM10
     </p>
 
     <!-- PM2.5  -->
     <p>
-        <span id="out_Aura/" + auraKit + "_pm2p5_ug_m3">---</span>
+        <span id="out_Aura/Example_pm2p5_ug_m3">---</span>
         µg/m³ - Livello PM2.5
     </p>
 
     <!-- PM4.0 -->
     <p>
-        <span id="out_Aura/" + auraKit + "_pm4p0_ug_m3">---</span>
+        <span id="out_Aura/Example_pm4p0_ug_m3">---</span>
        µg/m³ - Livello PM4.0
     </p>
 
     <!-- Livello di umidità -->
     <p>
-        <span id="out_Aura/" + auraKit + "_humidity">---</span>
+        <span id="out_Aura/Example_humidity">---</span>
         % - Umidità
     </p>
 
     <!-- Livello di temperatura -->
     <p>
-        <span id="out_Aura/" + auraKit + "_temperature">---</span>
+        <span id="out_Aura/Example_temperature">---</span>
        °C - Temperatura
     </p>
 
     <!-- Indice VOC - Composti Organici Volatili -->
     <p>
-        <span id="out_Aura/" + auraKit + "_voc_index">---</span>
+        <span id="out_Aura/Example_voc_index">---</span>
         Indice VOC - Qualità dell'aria
     </p>
 
     <!-- Indice NOx - Ossidi di Azoto -->
     <p>
-        <span id="out_Aura/" + auraKit + "_nox_index">---</span>
+        <span id="out_Aura/Example_nox_index">---</span>
         Indice NOx - Qualità dell'aria
     </p>
 
     <!-- Data e Ora -->
     <p>
-        <span id="out_Aura/" + auraKit + "_t">---</span>
+        <span id="out_Aura/Example_t">---</span>
         Data e Ora
     </p>
 
-    <!-- Includiamo JavaScript nella nostra pagina web  -->
+    <!-- Includiamo JavaScript nella nostra pagina web. Facciamo la magia  -->
+    <script>
+        const auraKitId = "out_Aura/" + auraKit;
+        document.getElementById("out_Aura/Example_pm10_ug_m3").id = auraKitId + "_pm10_ug_m3";
+        document.getElementById("out_Aura/Example_pm2p5_ug_m3").id = auraKitId + "_pm2p5_ug_m3";
+        document.getElementById("out_Aura/Example_pm4p0_ug_m3").id = auraKitId + "_pm4p0_ug_m3";
+        document.getElementById("out_Aura/Example_humidity").id = auraKitId + "_humidity";
+        document.getElementById("out_Aura/Example_temperature").id = auraKitId + "_temperature";
+        document.getElementById("out_Aura/Example_voc_index").id = auraKitId + "_voc_index";
+        document.getElementById("out_Aura/Example_nox_index").id = auraKitId + "_nox_index";
+        document.getElementById("out_Aura/Example_t").id = auraKitId + "_t";
+
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.2.7/mqtt.min.js"></script>
     <script src="mqtt.js"></script>
 </body>
