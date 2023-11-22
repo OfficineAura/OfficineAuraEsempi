@@ -1,6 +1,6 @@
 
 console.log(mqtt)
-console.log("Common Variable:", kitAura);
+var aurakit = auraKit;
 function connectMqttGetValues() {
     const options = {
         connectTimeout: 30000,
@@ -11,7 +11,7 @@ function connectMqttGetValues() {
     const client = mqtt.connect(connectUrl, options)
     client.on('connect', (connack) => {
         console.log("connected");
-        client.subscribe('BSAV00_0103/#')
+        client.subscribe(aurakit + '/#')
         console.log("subscribed");
     })
 
