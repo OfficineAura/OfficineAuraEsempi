@@ -44,4 +44,4 @@ Seguendo questi passaggi, dovresti essere in grado di connetterti ai dati inviat
 
 Ecco come dovrebbe appararire la tua schermata alla fine di questa lezione: 
 
-![Esempio Finale](https://github.com/OfficineAura/OfficineAura_Lezioni/blob/main/Sessione_1:MQTT/Mqtt_explorer_example.png)
+![Esempio Finale](https://github.com/OfficineAura/OfficineAura_Lezioni/blob/main/Sessione_1%3A%20MQTT/Mqtt_explorer_example.png)
