@@ -5,7 +5,7 @@ Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaS
 ## Crea la tua prima pagina AURA
 
 1. Clona il repository o scarica i file.
-2. Apri il file HTML (`index.html`) nel tuo browser.
+2. Apri il file HTML (`aura.html`) nel tuo browser.
 3. Modifica il valore di `auraKit` con il device name_serial number, che per il kit aura è del tipo BSAV00_0001.
 4. Personalizza il file HTML a tuo piacimento.
 
