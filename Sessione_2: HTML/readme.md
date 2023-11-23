@@ -14,11 +14,8 @@ Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaS
 Il file HTML (`index.html`) contiene elementi `<p>` che mostrano i valori dei sensori, come la temperatura, umidità e livello di particolato.
 Il JavaScript all'interno del file gestisce la sostituzione degli ID degli elementi HTML con quelli relativi ai dati provenienti dai sensori. Inoltre, sono inclusi i file JavaScript necessari per la connessione e l'aggiornamento dei dati tramite MQTT.
 
-## Requisiti
+## Strumenti utilizzati
 
-- Browser web compatibile con HTML5 e JavaScript abilitato.
-
-## Risorse esterne
-
+- Browser web compatibile con HTML5 e JavaScript abilitato (di solito già lo è).
 - [MQTT.js](https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.2.7/mqtt.min.js): Libreria JavaScript per la comunicazione tramite MQTT.
 - `mqtt.js`: File JavaScript per gestire la connessione e l'aggiornamento dei dati dei sensori.
