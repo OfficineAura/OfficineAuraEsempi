@@ -1,18 +1,12 @@
-# Connessione e Recupero Dati da MQTT
+Ciao, <br>
+let's go with Python and Bash on Linux!
 
-Questi script ti permettono di connetterti al broker MQTT e ricevere i dati dai sensori in tempo reale.
-
-## Python Script (Python)
+## Python 
 
 Il file `mqtt_python.py` è uno script Python che utilizza la libreria `paho-mqtt` per connettersi a un broker MQTT e ricevere i messaggi dai sensori. 
 
-### Istruzioni:
-
 1. Assicurati di avere Python installato sul tuo sistema.
-2. Installa la libreria `paho-mqtt` eseguendo il comando: 
-
-'pip install paho-mqtt'
-
+2. Installa la libreria `paho-mqtt` eseguendo il comando:   'pip install paho-mqtt'
 3. Sostituisci `"BSAV00_0103/#"` con il `device_name` e `serial_number` del tuo kit Aura per ricevere i messaggi in tempo reale.
 4. Esegui lo script per avviare la connessione al broker e ricevere i dati.
 
