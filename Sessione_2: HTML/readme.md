@@ -1,6 +1,6 @@
 Ciao,<br>
 questa sessione illustra come  visualizzare i dati provenienti dal sensore SEN5 su una pagina web. <br>
-Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaScript è responsabile della gestione e dell'aggiornamento dei valori dei sensori.
+Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaScript è responsabile della gestione e dell'aggiornamento dei valori del sensore.
 
 ## Istruzioni
 
@@ -11,8 +11,8 @@ Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaS
 
 ## Implementazione
 
-Il file HTML (`index.html`) contiene elementi `<p>` che mostrano i valori dei sensori, come la temperatura, umidità e livello di particolato.
-Il JavaScript all'interno del file gestisce la sostituzione degli ID degli elementi HTML con quelli relativi ai dati provenienti dai sensori. Inoltre, sono inclusi i file JavaScript necessari per la connessione e l'aggiornamento dei dati tramite MQTT.
+Il file HTML (`index.html`) contiene elementi `<p>` che mostrano i valori come la temperatura, umidità e livello di particolato.
+Il JavaScript all'interno del file gestisce la sostituzione degli ID degli elementi HTML con quelli relativi ai dati provenienti dal sensore. Inoltre, sono inclusi i file JavaScript necessari per la connessione e l'aggiornamento dei dati tramite MQTT.
 
 ## Strumenti utilizzati
 
