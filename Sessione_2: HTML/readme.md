@@ -22,9 +22,10 @@ Il JavaScript all'interno del file gestisce la sostituzione degli ID degli eleme
 
 ## Sperimentazione successiva
 
-Visualizza dati acquisiti da altro sensore<br>
-Riporta dati tabella in file HTML  <br>
----
+- Visualizza dati acquisiti da altro sensore<br>
+- Riporta dati tabella in file HTML  <br>
+
+- Crea grafico delle misure<br>
 Usa la libreria JavaScript Chart.js per visualizzare i valori dei sensori in un grafico. Ecco un esempio di come potresti farlo:
 
 1. Aggiungi la libreria Chart.js al tuo progetto HTML. Puoi farlo includendo questo script nel tuo file HTML:
