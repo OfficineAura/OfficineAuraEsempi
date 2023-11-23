@@ -22,5 +22,5 @@ Il file `mqtt_bash.sh` è uno script Bash che utilizza il comando `mosquitto_sub
 2. Sostituisci `"BSAV00_0103/#"` con device name_serial number, che per il kit aura è del tipo BSAV00_0001, per ricevere i messaggi.
 3. Esegui lo script per avviare l'ascolto dei messaggi dal broker.
 
----
+La sessione può esssere sperimentata su Linx (Ubuntu?) e su WIndows.
 
