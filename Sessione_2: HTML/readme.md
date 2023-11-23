@@ -11,7 +11,7 @@ Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaS
 
 ## Dettagli sul codice 
 
-Il file HTML (`index.html`) contiene elementi `<p>` che mostrano i valori come la temperatura, umidità e livello di particolato.
+Il file HTML (`aura.html`) contiene elementi `<p>` che mostrano i valori come la temperatura, umidità e livello di particolato.
 Il JavaScript all'interno del file gestisce la sostituzione degli ID degli elementi HTML con quelli relativi ai dati provenienti dal sensore. Inoltre, sono inclusi i file JavaScript necessari per la connessione e l'aggiornamento dei dati tramite MQTT.
 
 ## Strumenti utilizzati
