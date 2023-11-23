@@ -1,5 +1,5 @@
 Ciao,<br>
-questa sessione illustra come  visualizzare i dati provenienti da sensori su una pagina web. <br>
+questa sessione illustra come  visualizzare i dati provenienti dal sensore SEN5 su una pagina web. <br>
 Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaScript è responsabile della gestione e dell'aggiornamento dei valori dei sensori.
 
 ## Istruzioni
