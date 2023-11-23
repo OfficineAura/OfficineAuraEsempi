@@ -18,7 +18,7 @@ Il JavaScript all'interno del file gestisce la sostituzione degli ID degli eleme
 
 - Browser web compatibile con HTML5 e JavaScript abilitato (di solito già lo è).
 - [MQTT.js](https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.2.7/mqtt.min.js): Libreria JavaScript per la comunicazione tramite MQTT.
-- `mqtt.js`: File JavaScript per gestire la connessione e l'aggiornamento dei dati dei sensori.
+- `aura_mqtt.js`: File JavaScript per gestire la connessione e l'aggiornamento dei dati dei sensori.
 
 ## Sperimentazione successiva
 
