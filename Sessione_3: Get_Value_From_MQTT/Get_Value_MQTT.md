@@ -3,27 +3,15 @@
 Il sensore comunica le misure al broker MQTT ([Sessione_1])(https://github.com/OfficineAura/OfficineAura_Sperimentazione/tree/main/Sessione_1:%20MQTT).<br>
 Costruiamo un breve programma per andare a estrarre dal messaggio MQTT il valore di un sensore.<br>
 
-## Logica di programmazione
+## Utilizzo delle Librerie MQTT
 
-- Identifica la libreria;
-- Importala sul tuo IDE; 
-- Utilizza le funzioni della libreria per effettuare la connessione; 
-- Sottoscriviti ad un topic;
-- Implementa una funzione di callback per gestire i messaggi in arrivo;
-- Riprendi i valori di un determinato sensore; 
-- Stampa i valori;
-- Disconnessione sicura.
+Puoi usare una libreria MQTT nel tuo linguaggio di programmazione preferito. Alcune opzioni comuni sono:
 
-## 1. Installa libreria necessaria
-
-Hai bisogno di una libreria MQTT in qualsiasi linguaggio di programmazione per semplificare l'implementazione delle funzionalità di comunicazione con il protocollo MQTT.
-Alcune delle librerie comuni in diversi linguaggi di programmazione sono: 
-- Python: **`paho-mqtt`**
-- JavaScript: **`mqtt.js`**
-- Java: Eclipse **`Paho`**
-- C#: **`MQTTnet`**
-- Arduino: **`PubSubClient`**
-
+- Python: `paho-mqtt`
+- JavaScript: `mqtt.js`
+- Java: Eclipse `Paho`
+- C#: `MQTTnet`
+- Arduino: `PubSubClient`
 ## 2. Effettua la Connessione
 
 Una volta trovata la libreria da utilizzare, non ti resterà che utilizzarla per eseguire la connessione.<details>
