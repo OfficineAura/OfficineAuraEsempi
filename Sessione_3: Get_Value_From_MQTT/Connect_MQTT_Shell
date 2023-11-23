@@ -1,0 +1,13 @@
+#!/bin/sh
+echo "Script è pronto a partire!" # Messaggio di avvio 
+
+while true # Esegui all'infinito, cosi da rimanere aggiornato sui messaggi ricevuti
+do
+    mosquitto_sub -h "test.mosquitto.org" -t "BSAV00_0103/#" -F "%t %p" | while read -r payload # Ascolta i messaggi da test.mosquitto.org. Ricorda di modificare BSAV00_0103 con il device_name (es. BSAV00) e serial_number (Es. 0103) del tuo Kit Aura.
+    do
+        topic=$(echo "$payload" | cut -d ' ' -f 1) # Estrai il topic dalla connessione MQTT
+        msg=$(echo "$payload" | cut -d ' ' -f 2-) # Estrai il messaggio dal topic
+        echo "Hai ricevuto un messaggio! Il topic è: $topic e il messaggio è: ${payload}" # Stampa il messaggio ricevuto
+    done
+    sleep 10 # Aspetta per 10 secondi prima di ripetere l'operazione
+done # Fine del loop, andiamocene
