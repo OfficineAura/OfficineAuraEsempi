@@ -1,6 +1,7 @@
-Il tuo KIT AURA rileva nell’aria la presenza di elementi inquinanti grazie a sensori.<br>
+Ciao,<br>
+il tuo KIT AURA rileva nell’aria la presenza di elementi inquinanti grazie a sensori.<br>
 I valori di gas inquinanti sono trasmessi anche ad un broker ([MQTT](https://aws.amazon.com/it/what-is/mqtt/)). <br>
-**`Ecco come visualizzare le misure`**.<br>
+Ecco come visualizzare le misure.<br>
 
 
 ## 1. Installa il Client MQTT e Connettilo al Broker
