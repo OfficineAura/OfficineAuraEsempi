@@ -24,3 +24,23 @@ Il JavaScript all'interno del file gestisce la sostituzione degli ID degli eleme
 
 Visualizza dati acquisiti da altro sensore
 Riporta dati tabella in file HTML  
+
+## Esercizi
+
+### Grafico dei dati dei sensori con Chart.js
+
+Usa la libreria JavaScript Chart.js per visualizzare i valori dei sensori in un grafico. Ecco un esempio di come potresti farlo:
+
+1. Aggiungi la libreria Chart.js al tuo progetto HTML. Puoi farlo includendo questo script nel tuo file HTML:
+
+    ```html
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    ```
+
+2. Modifica il tuo file JavaScript per ottenere i dati dai sensori e memorizzarli in un array.
+
+3. Utilizza Chart.js per creare un grafico che rappresenti graficamente i dati dei sensori. Ad esempio, potresti creare un grafico a linee per tracciare la variazione della temperatura nel tempo.
+
+4. Aggiungi il grafico alla tua pagina HTML in modo che sia visibile insieme agli altri valori dei sensori.
+
+Puoi consultare la documentazione di Chart.js per ulteriori istruzioni e opzioni di personalizzazione: [Documentazione Chart.js](https://www.chartjs.org/docs/latest/).
