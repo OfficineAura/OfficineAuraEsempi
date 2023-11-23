@@ -15,19 +15,17 @@ Il file `mqtt_python.py` è uno script Python che utilizza la libreria `paho-mqt
 
 ## Shell 
 
-Il file `mqtt_bash.sh` è uno script Bash che utilizza il comando `mosquitto_sub` per ascoltare i messaggi da un broker MQTT.
+Il file `.sh` è uno script Shell che utilizza il comando `mosquitto_sub` per ascoltare i messaggi da un broker MQTT.
 
 1. Assicurati di avere `mosquitto_sub` installato sul tuo sistema. Se non lo hai, installa Mosquitto, il broker MQTT, da [Mosquitto.org](https://mosquitto.org/download/).
 2. Sostituisci `"BSAV00_0103/#"` con device name_serial number, che per il kit aura è del tipo BSAV00_0001, per ricevere i messaggi.
 3. Esegui lo script per avviare l'ascolto dei messaggi dal broker.
 
-La sessione può esssere sperimentata su Linux (Ubuntu?) e su WIndows.
+La sessione può esssere sperimentata su Linux e su Windows.
 
-Strumenti utilizzati
-python     python.org
-shell shell wiki
+## Strumenti utilizzati
+- [Python](https://www.python.org/).
+- [Shell](https://www.learnshell.org/).
 
-
-Sperimentazione successiva
-Memorizza le misure in un file.
-suggetilenti: vedi comando tail in linux , cat. append ....
+## Sperimentazione successiva
+- Memorizza le misure in un file. (Suggerimento: dai un'occhiata ai comandi Linux [tail](https://www.ionos.it/digitalguide/server/configurazione/comando-tail-di-linux/), [cat](https://www.ionos.it/digitalguide/server/configurazione/linux-comando-cat/), [append](https://www.cyberciti.biz/faq/linux-append-text-to-end-of-file/)https://www.cyberciti.biz/faq/linux-append-text-to-end-of-file/), o [BareTail](http://www.baremetalsoft.com/baretail/) in Windows)
