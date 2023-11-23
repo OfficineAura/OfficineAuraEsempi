@@ -1,5 +1,5 @@
 Ciao, <br>
-let's go with Python and Bash on Linux!
+let's go with Python and Shell on Linux!
 
 Vediamo come connettersi e ricevere i dati dai sensori tramite MQTT. <br>
 Assicurati di configurare correttamente i dettagli del broker e i topic per ottenere i dati desiderati. 
@@ -14,7 +14,7 @@ Il file `mqtt_python.py` è uno script Python che utilizza la libreria `paho-mqt
 3. Sostituisci `"BSAV00_0103/#"` con device name_serial number, che per il kit aura è del tipo BSAV00_0001, per ricevere i messaggi.
 4. Esegui lo script per avviare la connessione al broker e ricevere i dati.
 
-## Bash 
+## Shell 
 
 Il file `mqtt_bash.sh` è uno script Bash che utilizza il comando `mosquitto_sub` per ascoltare i messaggi da un broker MQTT.
 
