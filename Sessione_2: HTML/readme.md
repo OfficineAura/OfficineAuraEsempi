@@ -1,10 +1,6 @@
-# Visualizzazione dei dati dei sensori su una pagina web
-
-Questo repository mostra come visualizzare i dati dei sensori su una pagina web utilizzando HTML e JavaScript.
-
-## Descrizione
-
-Questo progetto illustra come utilizzare HTML e JavaScript per visualizzare i dati provenienti da sensori su una pagina web. Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaScript è responsabile della gestione e dell'aggiornamento dei valori dei sensori.
+Ciao,<br>
+questa sessione illustra come  visualizzare i dati provenienti da sensori su una pagina web. <br>
+Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaScript è responsabile della gestione e dell'aggiornamento dei valori dei sensori.
 
 ## Istruzioni
 
