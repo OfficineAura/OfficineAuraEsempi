@@ -22,4 +22,5 @@ Il JavaScript all'interno del file gestisce la sostituzione degli ID degli eleme
 
 ## Sperimentazione successiva
 
-Visualizza dati acquisiti da altro sensore. 
+Visualizza dati acquisiti da altro sensore
+Riporta dati tabella in file HTML  
