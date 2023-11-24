@@ -9,12 +9,15 @@ Let's go with Java!
 il file 'aura.java' è un codice Java che utilizza la libreria `org.eclipse.paho.client.mqttv3` per connettersi e ricevere i messaggi da un broker MQTT.
 
 1. Assicurati di avere incluso la libreria: <br>
-'<!-- https://mvnrepository.com/artifact/org.eclipse.paho/org.eclipse.paho.client.mqttv3 -->
+```xml
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.paho/org.eclipse.paho.client.mqttv3 -->
 <dependency>
     <groupId>org.eclipse.paho</groupId>
     <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
     <version>1.2.5</version>
-</dependency>'
+</dependency>
+\```
 2. Scarica il file aura.java
 3. Il tuo dispositivo invia messaggi al broker test.mosquitto.org. Nei messaggi è presente il nome del tuo dispositivo.
 Il nome è la concatenazione del modello e del serial number, riportati su etichetta interna al dispositivo.
