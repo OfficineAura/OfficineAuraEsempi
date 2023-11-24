@@ -6,8 +6,10 @@ Il codice HTML fornisce una struttura di base per la pagina web, mentre il JavaS
 
 1. Clona il repository o scarica i file.
 2. Apri il file HTML (`aura.html`) nel tuo browser.
-3. Modifica il valore di `auraKit` con il device name_serial number, che per il kit aura è del tipo BSAV00_0001.
-4. Personalizza il file HTML a tuo piacimento.
+3. Il tuo dispositivo invia messaggi al broker test.mosquitto.org. Nei messaggi è presente il nome del tuo dispositivo. <br>
+   Il nome  è la concatenazione del modello e del numero di serie, riportati su etichetta interna al dispositivo. <br>
+    Modifica il valore di `auraKit` con modello è numero di serie del tuo dispositivo (esempio:  **`BSAV00_0001`**).
+5. Personalizza il file HTML a tuo piacimento.
 
 ## Dettagli sul codice 
 
