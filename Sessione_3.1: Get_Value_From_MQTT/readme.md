@@ -10,7 +10,10 @@ Il file `Get_Value.py` è uno script che utilizza la libreria `paho-mqtt` per co
 
 1. Assicurati di avere Python installato sul tuo sistema, [Windows](https://www.python.org/downloads/windows/), Linux 'sudo apt-get install python3.6' .
 2. Installa la libreria `paho-mqtt` eseguendo il comando:   'pip install paho-mqtt', valido su entrambi i sistemi.
-3. Sostituisci `"BSAV00_0103/#"` con device name_serial number, che per il kit aura è del tipo `"BSAV00_0001/#"`, per ricevere i messaggi.
+3. Il tuo dispositivo invia messaggi al broker test.mosquitto.org. <br>
+   I messaggi  associati al nome del tuo dispositivo. <br>
+   Il nome del tuo dispositivo è la concatenazione del modello e del serial number e entrambi sono su etichetta interna al dispositivo. <br>
+   Nel file Get_Value.py sostituisci `"BSAV00_0103/#"` con modello e del serial number del tuo dispositivo. 
 4. Esegui lo script per avviare la connessione al broker e ricevere i dati.
 
 ## Shell_Linux 
