@@ -17,10 +17,9 @@ Ecco come visualizzare le misure.<br>
  Esegui le operazioni indicate nel [video](https://www.youtube.com/watch?v=pvuVjJ0AnrQ)
  
  Se non ti è possibile, segui le seguenti istruzioni:<br>
-- In MQTT Explorer, inserisci nella barra di ricerca `device name_serial number`, che per il kit aura è del tipo **`BSAV00_0001`**
 - Il tuo dispositivo invia messaggi al broker test.mosquitto.org. Nei messaggi è presente il nome del tuo dispositivo. <br>
    Il nome  è la concatenazione del modello e del numero di serie, riportati su etichetta interna al dispositivo. <br>
-   Inserisci nella barra di ricerca modello è numero di serie del tuo dispositivo (esempio:  **`BSAV00_0001`**).
+   In MQTT Explorer, inserisci nella barra di ricerca modello è numero di serie del tuo dispositivo (esempio:  **`BSAV00_0001`**).
 - Dopo poco, MQTT Explorer mostrerà solo i sensori del tuo kit AURA. Tra questo c'è il sensore SEN5.
 - Espandi `SEN5` per vedere i valori rilevati da questo sensore.
 - Clicca una riga (Es. PM2.5).
