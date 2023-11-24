@@ -37,5 +37,5 @@ Il file `Get_Value_Linux.sh` è uno script che utilizza il comando `mosquitto_su
 - Memorizza le misure in un file.<br>
 (Suggerimento: dai un'occhiata ai comandi Linux [tail](https://www.ionos.it/digitalguide/server/configurazione/comando-tail-di-linux/), [cat](https://www.ionos.it/digitalguide/server/configurazione/linux-comando-cat/), [append](https://www.cyberciti.biz/faq/linux-append-text-to-end-of-file/), o [BareTail](http://www.baremetalsoft.com/baretail/) in Windows)
 - Dal file salvato, attiva un alert con il valore più alto.
-(Suggerimento: dai un'occhiata ai comandi Linux [grep](https://www.ibm.com/docs/it/aix/7.3?topic=g-grep-command), [awk](https://www.ionos.it/digitalguide/server/configurazione/comando-awk-su-linux/). In linux dai un'occhiata ai comandi [open](https://flaviocopes.com/linux-command-open/), [subprocess](https://docs.python.org/3/library/subprocess.html))
-- Prova a eseguire Get_Value_Linux.sh in Windows. Suggerimenti: usa [Cygwin](https://www.cygwin.com/) e si verifica la directory in cui è installato mosquitto
+(Suggerimento: dai un'occhiata ai comandi Linux [grep](https://www.ibm.com/docs/it/aix/7.3?topic=g-grep-command), [awk](https://www.ionos.it/digitalguide/server/configurazione/comando-awk-su-linux/). In python dai un'occhiata ai comandi [open](https://flaviocopes.com/linux-command-open/), [subprocess](https://docs.python.org/3/library/subprocess.html))
+- Prova a eseguire Get_Value_Linux.sh in Windows. Suggerimenti: usa [Cygwin](https://www.cygwin.com/) e  verifica la directory in cui è installato mosquitto
