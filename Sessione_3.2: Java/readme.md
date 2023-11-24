@@ -4,7 +4,7 @@ Assicurati di configurare correttamente i dettagli del broker e i topic per otte
 
 Let's go with Java!
 
-### Java
+## Java
 
 il file 'aura.java' è un codice Java che utilizza la libreria `org.eclipse.paho.client.mqttv3` per connettersi e ricevere i messaggi da un broker MQTT.
 
@@ -20,10 +20,9 @@ il file 'aura.java' è un codice Java che utilizza la libreria `org.eclipse.paho
 Il nome è la concatenazione del modello e del serial number, riportati su etichetta interna al dispositivo.
 Nel file aura.java sostituisci "BSAV00_0103/#" con modello e del serial number del tuo dispositivo.
 
-
-### Strumenti Utilizzati
+## Strumenti Utilizzati
 - [Java](https://www.java.com/en/download/help/whatis_java.html)
 
-### Sperimentazione successiva
+## Sperimentazione successiva
 - Prova a pubblicare un valore sul tuo dispositivo.
 (Suggerimento: dai un'occhiata alla libreria [mqttv3](https://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqtt-v3r1.html) per capire come fare).
