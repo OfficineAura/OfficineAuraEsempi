@@ -32,3 +32,5 @@ Le sessioni possono esssere sperimentate su Linux e su Windows.
 ## Sperimentazione successiva
 - Memorizza le misure in un file.<br>
 (Suggerimento: dai un'occhiata ai comandi Linux [tail](https://www.ionos.it/digitalguide/server/configurazione/comando-tail-di-linux/), [cat](https://www.ionos.it/digitalguide/server/configurazione/linux-comando-cat/), [append](https://www.cyberciti.biz/faq/linux-append-text-to-end-of-file/), o [BareTail](http://www.baremetalsoft.com/baretail/) in Windows)
+- Dal file salvato, attiva un alert con il valore più alto.
+(Suggerimento: dai un'occhiata ai comandi Linux [grep](https://blog.keliweb.it/2021/11/linux-comando-grep-come-utilizzarlo/#:~:text=Grep%20(che%20sta%20per%20Global,cui%20%C3%A8%20stata%20trovata%20corrispondenza.), [awk](https://www.ionos.it/digitalguide/server/configurazione/comando-awk-su-linux/). In linux dai un'occhiata ai comandi [open](https://flaviocopes.com/linux-command-open/), [subprocess](https://docs.python.org/3/library/subprocess.html))
