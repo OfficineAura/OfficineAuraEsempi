@@ -28,17 +28,6 @@ Il file `Get_Value_Linux.sh` è uno script che utilizza il comando `mosquitto_su
 4. Esegui Get_Value_Linux.sh per avviare l'ascolto dei messaggi dal broker.
 
 
-## Shell_Windows
-
-Il file `Get_Value_Windows.sh` è uno script  che utilizza il comando `mosquitto_sub` per ascoltare i messaggi da un broker MQTT.
-
-1. Assicurati di avere `mosquitto_sub` installato sul tuo sistema. Se non lo hai, installalo da [Mosquitto.org](https://mosquitto.org/download/).
-2. In Windows puoi utilizzare [Cygwin](https://www.cygwin.com/) per simulare l'ambiente di Unix.
-3. Cambia i diritti del file 'chmod +x aura_mqtt.sh'
-4. Sostituisci `"BSAV00_0103/#"` con device name_serial number, che per il kit aura è del tipo BSAV00_0001, per ricevere i messaggi.
-5. Esegui lo script per avviare l'ascolto dei messaggi dal broker.
-
-Le sessioni possono esssere sperimentate su Linux e su Windows.
 
 ## Strumenti utilizzati
 - [Python](https://www.python.org/).
@@ -49,3 +38,4 @@ Le sessioni possono esssere sperimentate su Linux e su Windows.
 (Suggerimento: dai un'occhiata ai comandi Linux [tail](https://www.ionos.it/digitalguide/server/configurazione/comando-tail-di-linux/), [cat](https://www.ionos.it/digitalguide/server/configurazione/linux-comando-cat/), [append](https://www.cyberciti.biz/faq/linux-append-text-to-end-of-file/), o [BareTail](http://www.baremetalsoft.com/baretail/) in Windows)
 - Dal file salvato, attiva un alert con il valore più alto.
 (Suggerimento: dai un'occhiata ai comandi Linux [grep](https://www.ibm.com/docs/it/aix/7.3?topic=g-grep-command), [awk](https://www.ionos.it/digitalguide/server/configurazione/comando-awk-su-linux/). In linux dai un'occhiata ai comandi [open](https://flaviocopes.com/linux-command-open/), [subprocess](https://docs.python.org/3/library/subprocess.html))
+- Prova a eseguire Get_Value_Linux.sh in Windows. Suggerimenti: usa [Cygwin](https://www.cygwin.com/) e si verifica la directory in cui è installato mosquitto
