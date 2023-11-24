@@ -1,4 +1,4 @@
-Ciao,
+Ciao,<br>
 Vediamo come connettersi e ricevere i dati dai sensori tramite MQTT.
 Assicurati di configurare correttamente i dettagli del broker e i topic per ottenere i dati desiderati.
 
