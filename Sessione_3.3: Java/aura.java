@@ -4,13 +4,13 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
 import java.util.concurrent.CountDownLatch;
 
-public class MainClass {
+public class Aura implements MqttCallback {
 
-    public static void main(String[] args) {
-        String host = "tcp://test.mosquitto.org:1883"; // Indirizzo e porta del broker MQTT
+    private static final String MQTT_HOST = "tcp://test.mosquitto.org:1883"; // Indirizzo e porta del broker MQTT
 
+    public Aura(String nodeId) throws MqttException, InterruptedException {
         // Creazione di un oggetto MqttClient con il nome "Testing"
-        MqttClient mqttClient = new MqttClient(host, "Testing", new MemoryPersistence());
+        MqttClient mqttClient = new MqttClient(MQTT_HOST, "Testing", new MemoryPersistence());
 
         // Configurazione delle opzioni di connessione
         MqttConnectOptions connOpts = new MqttConnectOptions();
@@ -20,26 +20,23 @@ public class MainClass {
         mqttClient.connect(connOpts);
 
         // Configurazione del callback per gestire gli eventi MQTT
-        mqttClient.setCallback(new MqttCallback() {
-
-            public void messageArrived(String topic, MqttMessage message) throws Exception {
-                System.out.println("Message: " + new String(message.getPayload()));
-            }
-        });
+        mqttClient.setCallback(this);
 
         // Sottoscrizione al topic "BSAV00_0001" con QoS 0 (usato di default)
-        try {
-            mqttClient.subscribe("BSAV00_0001", 0);
-        } catch (MqttException e) {
-            e.printStackTrace();
-        }
+        mqttClient.subscribe(nodeId, 0);
 
         // Utilizzo di un oggetto CountDownLatch per bloccare il thread principale fino a quando il messaggio viene ricevuto. Cosi facendo bloccheremo il thread principale fino a quando non viene ricevuto un messaggio MQTT.
         CountDownLatch latch = new CountDownLatch(1);
 
-        try {
-            latch.await(); // Blocca qui fino a quando il messaggio viene ricevuto
-        } catch (InterruptedException e) {
-        }
+        latch.await(); // Blocca qui fino a quando il messaggio viene ricevuto
+    }
+
+    public static void main(String[] args) throws MqttException, InterruptedException {
+        Aura aura = new Aura("BSAV00_0001");
+    }
+
+    @Override
+    public void messageArrived(String topic, MqttMessage message) throws Exception {
+        System.out.println("Message: " + new String(message.getPayload()));
     }
 }
