@@ -1,7 +1,7 @@
 ## OfficineAura_Sperimentazione_Kit_AURA
 
 
-Ciao,
+Ciao,<br>
 ogni 60 minuti il tuo KIT AURA misura la qualità dell'aria e trasmette i valori in Rete.
 
 Le misure possono essere consultate in due semplici modi.
