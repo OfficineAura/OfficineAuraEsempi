@@ -17,4 +17,4 @@ Ad esempio è possibile inviare un'alert in caso di aria insalubre, oppure un re
 
 Ti invitiamo a creare nuove sessioni, a pubblicarle in github e a condividerle sia con altri istituti scolastici che con soggetti della comunità AURA.
 
-Buon divertimento.
+Buon divertimento!
