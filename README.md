@@ -13,8 +13,7 @@ ma soprattutto per leggere e utilizzare i dati acquisiti dai tuoi sensori.
 Le sessioni hanno difficoltà crescente e utizzano linguaggi diversi.
 
 La disponibilità delle misure può dare luogo a molte sperimentazioni.
-Per esempio è possibile inviare alert in caso di aria insalubre, piuttosto che  
-reminder di innaffiare in caso di terreno secco.
+Per esempio è possibile inviare alert in caso di aria insalubre, piuttosto che reminder di innaffiare in caso di terreno secco.
 
 Ti inviatiamo a creare nuove sessioni,a pubblicarle in github e condividerle con 
 altri istituti scolastici e più in generale soggetti della comunità AURA 
