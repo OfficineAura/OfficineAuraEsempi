@@ -1,19 +1,20 @@
-# OfficineAura_Sperimentazione_Kit_AURA
+## OfficineAura_Sperimentazione_Kit_AURA
 
 
 Ciao,
 ogni 60 minuti il tuo KIT AURA misura la qualità dell'aria e trasmette i valori in Rete.
 
-Le misure possono essere consultate tramite webAPP, andando su URL indicato nel libretto oppure andando a leggere 
-i messaggi trasmessi in Rete, in particolare a broker MQTT.
+Le misure possono essere consultate in due semplici modi.
+Tramite webAPP, andando su URL indicato nel libretto.
+Tramite MQTT, andando a leggere i messaggi trasmessi in Rete.
 
-All'interno di questa repository troverai alcuni esempi per acquisire ed  elaborare i dati  con il biofiltro Aura.
-Le sessioni 1-5 sono una prima guida per apprendere e utilizzare strumenti informatici molto diffusi nell'IoT, 
-ma soprattutto per leggere e utilizzare i dati acquisiti dai tuoi sensori.
-Le sessioni hanno difficoltà crescente e utizzano linguaggi diversi.
+All'interno di questa repository troverai alcuni esempi per acquisire ed elaborare i dati con il kit Aura.
+Le sessioni 1-5 sono una prima guida per apprendere alcuni strumenti informatici molto diffusi nell'IoT, ma soprattutto per leggere e utilizzare i dati acquisiti dai tuoi sensori.
+Le sessioni hanno difficoltà crescente e utizzano linguaggi di programmazione diversi.
 
-La disponibilità delle misure può dare luogo a molte sperimentazioni.
-Per esempio è possibile inviare alert in caso di aria insalubre, piuttosto che reminder di innaffiare in caso di terreno secco.
+La disponibilità delle misure può dar luogo a molte sperimentazioni.
+Ad esempio è possibile inviare un'alert in caso di aria insalubre, oppure un reminder quando il terreno ha bisogno di acqua.
 
-Ti inviatiamo a creare nuove sessioni,a pubblicarle in github e condividerle con 
-altri istituti scolastici e più in generale soggetti della comunità AURA 
+Ti invitiamo a creare nuove sessioni, a pubblicarle in github e a condividerle sia con altri istituti scolastici che con soggetti della comunità AURA.
+
+Buon divertimento.
